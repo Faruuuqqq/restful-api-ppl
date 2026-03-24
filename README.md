@@ -268,6 +268,21 @@ git push -u origin feat/add-events-crud
 # Setelah PR approved, merge ke develop
 ```
 
+### Commit History (Bukti)
+
+```
+6c9cb1d fix: correct build command in CI workflow
+1a7abb7 fix: update CI workflow and README badges
+3e38841 docs: add API documentation
+83c1317 ci: add GitHub Actions workflows
+f5d7133 chore: add Docker configuration
+9d0e49a test: add unit tests for events handlers
+ccd229d feat: setup routes and main entry point
+3ee7063 feat: implement events CRUD handlers
+f56c0b5 feat: add event model and response struct
+4be16b4 Initial commit
+```
+
 ## 5. Status Automasi (GitHub Actions)
 
 ### Workflows
@@ -283,7 +298,7 @@ git push -u origin feat/add-events-crud
 - Run unit tests dengan coverage
 - Build application
 
-**Status:** [![CI - Unit Testing](https://github.com/faruq/restful-api-ppl/actions/workflows/ci.yml/badge.svg)](https://github.com/faruq/restful-api-ppl/actions/workflows/ci.yml)
+**Status:** [![CI - Unit Testing](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/ci.yml/badge.svg)](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/ci.yml)
 
 #### CS - Security Scan (`.github/workflows/security.yml`)
 
@@ -294,16 +309,16 @@ git push -u origin feat/add-events-crud
 - Install gosec
 - Run security scan untuk vulnerability
 
-**Status:** [![CS - Security Scan](https://github.com/faruq/restful-api-ppl/actions/workflows/security.yml/badge.svg)](https://github.com/faruq/restful-api-ppl/actions/workflows/security.yml)
+**Status:** [![CS - Security Scan](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/security.yml/badge.svg)](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/security.yml)
 
 ### Local Testing
 
 ```bash
 # Run tests
-go test -v -cover ./...
+go test -v ./...
 
 # Build
-go build -o main.exe ./src
+go build -v ./...
 
 # Run locally
 go run ./src
