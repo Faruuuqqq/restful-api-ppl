@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: events-api
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    networks:
+      - api-network
+
+networks:
+  api-network:
+    driver: bridge

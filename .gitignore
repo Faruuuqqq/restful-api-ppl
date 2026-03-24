@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+# Test binary
+*.test
+
+# Output files
+*.out
+
+# Go module cache
+go/pkg/mod
+
+# Vendor directory
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (not for commit)
+IMPLEMENTATION_PLAN.md
+Pertemuan 2.txt
+
+# Docker volumes
+volumes/
+
+# Logs
+*.log
