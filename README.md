@@ -2,8 +2,8 @@
 
 RESTful API untuk mengelola events/kegiatan dengan CRUD operations menggunakan Go + Gin framework, terintegrasi dengan Docker dan GitHub Actions.
 
-[![CI - Unit Testing](https://github.com/faruq/restful-api-ppl/actions/workflows/ci.yml/badge.svg)](https://github.com/faruq/restful-api-ppl/actions/workflows/ci.yml)
-[![CS - Security Scan](https://github.com/faruq/restful-api-ppl/actions/workflows/security.yml/badge.svg)](https://github.com/faruq/restful-api-ppl/actions/workflows/security.yml)
+[![CI - Unit Testing](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/ci.yml/badge.svg)](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/ci.yml)
+[![CS - Security Scan](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/security.yml/badge.svg)](https://github.com/Faruuuqqq/restful-api-ppl/actions/workflows/security.yml)
 
 ## 1. Deskripsi Project
 
